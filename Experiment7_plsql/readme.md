@@ -34,7 +34,10 @@ END;
 - Use an `IF` statement to compare the values.
 - Display the greater number using `DBMS_OUTPUT.PUT_LINE`.
 
-# code
+**Expected Output:**  
+Greater number is: 80
+
+## Code
 ```
 
 SET SERVEROUTPUT ON;
@@ -51,11 +54,10 @@ BEGIN
 END;
 
 ```
-**Expected Output:**  
-Greater number is: 80
 
- ### output:
- <img width="816" height="221" alt="image" src="https://github.com/user-attachments/assets/ee897496-05a9-4a66-bb60-8afdd53f3c9b" />
+ ### Output:
+ 
+<img width="542" height="272" alt="image" src="https://github.com/user-attachments/assets/dedba382-4a96-4bcc-b03b-f5bf3ccd8374" />
 
 
 ## 2. Write a PL/SQL program to Calculate Sum of First N Natural Numbers
@@ -65,7 +67,11 @@ Greater number is: 80
 - Initialize a `sum` variable to 0.
 - Use a `WHILE` loop to iterate from 1 to `n`, adding each number to the sum.
 - Display the result using `DBMS_OUTPUT.PUT_LINE`.
-### code:
+
+**Expected Output:**  
+Sum of first 10 natural numbers is: 55
+
+## Code
 ```
 
 SET SERVEROUTPUT ON;
@@ -86,9 +92,8 @@ BEGIN
 END;
 ```
 
-**Expected Output:**  
-Sum of first 10 natural numbers is: 55
-### output:
+### Output:
+
 <img width="707" height="280" alt="image" src="https://github.com/user-attachments/assets/0987cb3c-09a8-4850-85a0-0f40ace4c0f0" />
 
 
@@ -100,7 +105,12 @@ Sum of first 10 natural numbers is: 55
 - Use a loop to generate the next terms using the formula `c = a + b`.
 - Print each term in the series.
 
-### code:
+
+**Expected Output:**  
+n = 7  
+Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
+
+## Code
 ```
 
 SET SERVEROUTPUT ON;
@@ -122,12 +132,8 @@ END;
 
 ```
 
+### Output:
 
-**Expected Output:**  
-n = 7  
-Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
-
-### output:
 <img width="746" height="247" alt="image" src="https://github.com/user-attachments/assets/6ba04c0a-8a31-4885-a0de-e9588a09f44e" />
 
 
@@ -137,7 +143,12 @@ Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 - Declare a variable `n` and assign a value (e.g., 1535).
 - Use a loop to extract each digit using modulo and reverse the number.
 - Display the reversed number.
-### code:
+
+**Expected Output:**  
+n = 1535  
+Reversed number is 5351
+
+## Code
 ```
 
 SET SERVEROUTPUT ON;
@@ -159,12 +170,8 @@ BEGIN
 END;
 ```
 
+### Output:
 
-**Expected Output:**  
-n = 1535  
-Reversed number is 5351
-
-### output:
 <img width="707" height="243" alt="image" src="https://github.com/user-attachments/assets/2e457b4a-671c-4498-ab04-9ca62e98013e" />
 
 
@@ -175,7 +182,11 @@ Reversed number is 5351
 - Use nested `IF-ELSIF-ELSE` conditions to find the largest among the three.
 - Display the largest number.
 
-### code:
+**Expected Output:**  
+a = 10, b = 9, c = 15  
+Largest of three number is 15
+
+## Code
 ```
 
 SET SERVEROUTPUT ON;
@@ -195,11 +206,8 @@ BEGIN
 END;
 ```
 
-**Expected Output:**  
-a = 10, b = 9, c = 15  
-Largest of three number is 15
 
-### output:
+### Output:
 <img width="572" height="265" alt="image" src="https://github.com/user-attachments/assets/fb99de45-b814-4c96-a9ad-c693aeadbdaf" />
 
 ## RESULT
